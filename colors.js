@@ -6,7 +6,7 @@
 	// 		return factory(root);
 	// 	});
 	// } else {
-		root.Colors = factory(root);
+		root.Colors = factory(window);
 	// }
 }(this, function(window, undefined) {
 	"use strict"
