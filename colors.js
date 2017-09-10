@@ -1,13 +1,13 @@
 (function (root, factory) {
-	if (typeof exports === 'object') {
-		module.exports = factory(root);
-	} else if (typeof define === 'function' && define.amd) {
-		define('colors', [], function () {
-			return factory(root);
-		});
-	} else {
+	// if (typeof exports === 'object') {
+	// 	module.exports = factory(root);
+	// } else if (typeof define === 'function' && define.amd) {
+	// 	define('colors', [], function () {
+	// 		return factory(root);
+	// 	});
+	// } else {
 		root.Colors = factory(root);
-	}
+	// }
 }(this, function(window, undefined) {
 	"use strict"
 
