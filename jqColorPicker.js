@@ -6,7 +6,7 @@
     //         return factory(root, jQuery, Colors);
     //     });
     // } else {
-        factory(root, root.jQuery, root.Colors);
+        factory(window, jQuery, Colors);
     // }
 }(this, function(window, $, Colors, undefined){
     'use strict';
